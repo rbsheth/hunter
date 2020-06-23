@@ -64,6 +64,17 @@ hunter_add_version(
     75c9961f52ef9f79a79498e3d46f9107f467494d
 )
 
+hunter_add_version(
+    PACKAGE_NAME
+    Jpeg
+    VERSION
+    "turbo-2.0.3-p6"
+    URL
+    "https://github.com/cpp-pm/libjpeg-turbo/archive/v2.0.3-p6.tar.gz"
+    SHA1
+    1045c835853c90e4abecccb5569b1b0f8a50c3ab
+)
+
 string(FIND "${HUNTER_Jpeg_VERSION}" "turbo" HUNTER_Jpeg_IS_TURBO)
 if(NOT HUNTER_Jpeg_IS_TURBO EQUAL -1)
   hunter_cmake_args(

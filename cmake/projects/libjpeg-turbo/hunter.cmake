@@ -23,11 +23,11 @@ hunter_add_version(
     PACKAGE_NAME
     libjpeg-turbo
     VERSION
-    2.0.3-p5
+    2.0.3-p6
     URL
-    "https://github.com/cpp-pm/libjpeg-turbo/archive/v2.0.3-p5.tar.gz"
+    "https://github.com/cpp-pm/libjpeg-turbo/archive/v2.0.3-p6.tar.gz"
     SHA1
-    77fd8497909c9440f2413eaad72576e096cb62e3
+    1045c835853c90e4abecccb5569b1b0f8a50c3ab
 )
 
 hunter_pick_scheme(DEFAULT url_sha1_cmake)
