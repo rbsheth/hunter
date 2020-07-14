@@ -5,6 +5,8 @@
 cmake_minimum_required(VERSION 3.2)
 option(HUNTER_BUILD_SHARED_LIBS "..." ON)
 
+set(Boost_DEBUG ON CACHE BOOLEAN "")
+
 # Configure:
 set(PYTHON_VERSION 3.5)
 set(TESTING_CONFIG_OPT FILEPATH "${CMAKE_CURRENT_LIST_DIR}/config.cmake")
@@ -20,11 +22,12 @@ hunter_add_package(Boost COMPONENTS python)
 find_package(Boost CONFIG REQUIRED python35)
 find_package(PythonLibs ${PYTHON_VERSION} EXACT REQUIRED)
 
-add_library(foo foo.cpp)
+PYTHON_ADD_MODULE(foo foo.cpp)
 target_link_libraries(
     foo
     PUBLIC
     Boost::python35
+    ${PYTHON_LIBRARIES}
 )
 target_include_directories(
   foo

@@ -105,6 +105,50 @@ hunter_add_version(
     5f32dcd70bed20e42cecc53058b8502298c6680a
 )
 
+hunter_add_version(
+    PACKAGE_NAME
+    Protobuf
+    VERSION
+    "3.6.1.3-p1"
+    URL
+    "https://github.com/hunter-packages/protobuf/archive/v3.6.1.3-p1.tar.gz"
+    SHA1
+    120e15e1cc49b3fcc4fc89503ccc1346c9978362
+)
+
+hunter_add_version(
+    PACKAGE_NAME
+    Protobuf
+    VERSION
+    "3.7.1-p0"
+    URL
+    "https://github.com/hunter-packages/protobuf/archive/v3.7.1-p0.tar.gz"
+    SHA1
+	6bfa8d5525039efdf63f40277b20d8d5852c89bf
+)
+
+hunter_add_version(
+    PACKAGE_NAME
+    Protobuf
+    VERSION
+    "3.10.0-p0"
+    URL
+    "https://github.com/cpp-pm/protobuf/archive/v3.10.0-p0.tar.gz"
+    SHA1
+    967cd20c627efb59240508e0a8688f462a9a4086
+)
+
+hunter_add_version(
+    PACKAGE_NAME
+    Protobuf
+    VERSION
+    "3.11.2-p0"
+    URL
+    "https://github.com/cpp-pm/protobuf/archive/v3.11.2-p0.tar.gz"
+    SHA1
+    490beb456fb6934bd4d9f6012c601f6724c2f757
+)
+
 string(
     COMPARE EQUAL "${CMAKE_SYSTEM_NAME}" "WindowsStore" _hunter_windows_store
 )
@@ -115,6 +159,7 @@ if(ANDROID OR IOS)
       CMAKE_ARGS
         protobuf_BUILD_TESTS=OFF
         protobuf_BUILD_PROTOC=OFF
+        protobuf_BUILD_PROTOC_BINARIES=OFF
   )
 elseif(_hunter_windows_store)
   hunter_cmake_args(
