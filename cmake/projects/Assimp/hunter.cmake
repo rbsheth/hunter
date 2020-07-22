@@ -57,11 +57,11 @@ hunter_add_version(
     PACKAGE_NAME
     Assimp
     VERSION
-    5.0.1-6644fee-t0
+    5.0.1-f593393-t0
     URL
-    "https://github.com/rbsheth/assimp/archive/v5.0.1-6644fee-t0.tar.gz"
+    "https://github.com/rbsheth/assimp/archive/v5.0.1-f593393-t0.tar.gz"
     SHA1
-    ee9cffb0f9f270aab015c636c4b525c5096550a1
+    4a431ed0be0d89b53452ef6d16ae493c68d9cc56
 )
 
 hunter_cmake_args(
