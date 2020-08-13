@@ -153,11 +153,11 @@ hunter_add_version(
     PACKAGE_NAME
     Protobuf
     VERSION
-    "3.12.4-p0"
+    "3.12.4-p1"
     URL
-    "https://github.com/cpp-pm/protobuf/archive/v3.12.4-p0.tar.gz"
+    "https://github.com/cpp-pm/protobuf/archive/v3.12.4-p1.tar.gz"
     SHA1
-    ec3ea5b9f99cc1884d5c05972f2dcf7ccc025102
+    01b62322e6d9d3271261882bbc7c1719f7179d9d
 )
 
 string(
