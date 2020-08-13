@@ -31,6 +31,12 @@ hunter_add_version(
     ac4796e631461c27cd05629097a6931c1d5b13a4
 )
 
+hunter_cmake_args(
+    re2
+    CMAKE_ARGS
+      RE2_BUILD_TESTING=OFF
+)
+
 hunter_pick_scheme(DEFAULT url_sha1_cmake)
 hunter_cacheable(re2)
 hunter_download(PACKAGE_NAME re2)
