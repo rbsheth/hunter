@@ -13,11 +13,11 @@ hunter_add_version(
     PACKAGE_NAME
     RapidJSON
     VERSION
-    "1.1.0-ce81bc9-p0"
+    "1.1.0-ce81bc9-p1"
     URL
-    "https://github.com/cpp-pm/rapidjson/archive/v1.1.0-ce81bc9-p0.tar.gz"
+    "https://github.com/cpp-pm/rapidjson/archive/v1.1.0-ce81bc9-p1.tar.gz"
     SHA1
-    95b85cd29fea30d4cbd1478bcc24a06ff60b79f8
+    2fb99e1c64dcd6702a56efb1bea9341c67c1d6e3
 )
 
 hunter_add_version(
