@@ -27,4 +27,8 @@ if [[ "$TOOLCHAIN" =~ "ios-nocodesign-13-2" ]]; then
 fi
 
 # Run build script
-python jenkins.py
+if [[ "$BRANCH_NAME" == "master" ]]; then
+    python jenkins.py --upload
+else
+    python jenkins.py
+fi
