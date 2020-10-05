@@ -14,7 +14,7 @@ hunter_add_version(
     VERSION
     2.1.3-p0
     URL
-    "https://github.com/hunter-packages/QtPropertyEditor/archive/v2.1.3-p0.tar.gz"
+    "https://github.com/cpp-pm/QtPropertyEditor/archive/v2.1.3-p0.tar.gz"
     SHA1
     e566457c8f44cbb00d3001d659ed4e164ea57fdf
 )

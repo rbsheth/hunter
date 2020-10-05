@@ -127,7 +127,7 @@ if(_is_linux OR MINGW)
 elseif(IOS OR ANDROID)
   hunter_default_version(Qt VERSION 5.9.1-p0)
 else()
-  hunter_default_version(Qt VERSION 5.11.3)
+  hunter_default_version(Qt VERSION 5.12.3)
 endif()
 
 hunter_default_version(QtAndroidCMake VERSION 1.0.9)

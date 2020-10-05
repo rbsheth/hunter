@@ -13,7 +13,7 @@ hunter_add_version(
     VERSION
     "1.0.0"
     URL
-    "https://github.com/hunter-packages/QtQmlManager/archive/v1.0.0.tar.gz"
+    "https://github.com/cpp-pm/QtQmlManager/archive/v1.0.0.tar.gz"
     SHA1
     87372a0c6fa7dedc4830b87ab49ea46f890415f2
 )

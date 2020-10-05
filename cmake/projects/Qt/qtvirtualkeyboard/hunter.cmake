@@ -32,6 +32,8 @@ if(_is_qtquickcontrols2 OR _is_qtwebview)
     # Qt 5.9.*
   elseif(HUNTER_Qt_VERSION MATCHES "^5\\.10\\.")
     # Qt 5.10.*
+  elseif(HUNTER_Qt_VERSION MATCHES "^5\\.12\\.")
+    # Qt 5.12.*
   else()
     return()
   endif()
@@ -80,6 +82,8 @@ if(
     # Qt 5.10.*
   elseif(HUNTER_Qt_VERSION MATCHES "^5\\.11\\.")
     # Qt 5.11.*
+  elseif(HUNTER_Qt_VERSION MATCHES "^5\\.12\\.")
+    # Qt 5.12.*
   else()
     return()
   endif()
