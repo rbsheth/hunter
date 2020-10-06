@@ -1,4 +1,4 @@
-# Copyright (c) 2015, Ruslan Baratov, Alexandre Pretyman
+# Copyright (c) 2015-2020, Ruslan Baratov, Alexandre Pretyman, Rahul Sheth
 # All rights reserved.
 
 # !!! DO NOT PLACE HEADER GUARDS HERE !!!
