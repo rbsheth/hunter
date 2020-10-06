@@ -120,14 +120,14 @@ hunter_default_version(PostgreSQL VERSION 10.0.0)
 hunter_default_version(Protobuf VERSION 3.12.4-p1)
 
 string(COMPARE EQUAL "${CMAKE_SYSTEM_NAME}" "Linux" _is_linux)
-if(_is_linux OR MINGW)
+#if(_is_linux OR MINGW)
   # qt-qml example is broken on Linux
   # qt-core example is broken on MinGW
-  hunter_default_version(Qt VERSION 5.5.1-cvpixelbuffer-2-p9)
-elseif(IOS OR ANDROID)
+  #hunter_default_version(Qt VERSION 5.5.1-cvpixelbuffer-2-p9)
+if(IOS OR ANDROID)
   hunter_default_version(Qt VERSION 5.9.1-p0)
 else()
-  hunter_default_version(Qt VERSION 5.12.3)
+  hunter_default_version(Qt VERSION 5.15.1)
 endif()
 
 hunter_default_version(QtAndroidCMake VERSION 1.0.9)

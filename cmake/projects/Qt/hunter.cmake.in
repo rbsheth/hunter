@@ -34,6 +34,8 @@ if(_is_qtquickcontrols2 OR _is_qtwebview)
     # Qt 5.10.*
   elseif(HUNTER_Qt_VERSION MATCHES "^5\\.12\\.")
     # Qt 5.12.*
+  elseif(HUNTER_Qt_VERSION MATCHES "^5\\.15\\.")
+    # Qt 5.15.*
   else()
     return()
   endif()
@@ -84,6 +86,8 @@ if(
     # Qt 5.11.*
   elseif(HUNTER_Qt_VERSION MATCHES "^5\\.12\\.")
     # Qt 5.12.*
+  elseif(HUNTER_Qt_VERSION MATCHES "^5\\.15\\.")
+    # Qt 5.15.*
   else()
     return()
   endif()
@@ -146,5 +150,5 @@ hunter_pick_scheme(DEFAULT url_sha1_qt)
 hunter_download(
     PACKAGE_NAME Qt
     PACKAGE_COMPONENT "@qt_component@"
-    PACKAGE_INTERNAL_DEPS_ID "14"
+    PACKAGE_INTERNAL_DEPS_ID "15"
 )
