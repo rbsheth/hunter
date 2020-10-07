@@ -185,11 +185,18 @@ elseif(_is_linux)
 
   list(APPEND
     configure_opts
-      -qt-xcb
       -opengl desktop
       -L "${XCB_ROOT}/lib"
       -I "${XCB_ROOT}/include"
   )
+
+  if(HUNTER_Qt_VERSION VERSION_LESS 5.15)
+    list(APPEND
+      configure_opts
+        -qt-xcb
+    )
+  endif()
+
 elseif("@MSVC@")
   list(APPEND configure_opts -platform "win32-msvc@HUNTER_MSVC_YEAR@")
   if(QT_OPENGL_DESKTOP)
@@ -276,7 +283,7 @@ list(APPEND configure_opts "-qt-libjpeg")
 list(APPEND configure_opts "-qt-libpng")
 list(APPEND configure_opts "-qt-pcre")
 if(NOT WIN32)
-  if(HUNTER_Qt_VERSION VERSION_LESS 5.12)
+  if(HUNTER_Qt_VERSION VERSION_LESS 5.12 OR HUNTER_Qt_VERSION VERSION_GREATER 5.15)
     list(APPEND configure_opts "-qt-xkbcommon")
   else()
     list(APPEND configure_opts "-xkbcommon")
