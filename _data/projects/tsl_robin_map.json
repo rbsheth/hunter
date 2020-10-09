@@ -1,2102 +1,842 @@
 [
     {
         "status": "completed", 
-        "check_run_url": "https://api.github.com/repos/rbsheth/hunter/check-runs/1227789024", 
+        "check_run_url": "https://api.github.com/repos/rbsheth/hunter/check-runs/1232091191", 
         "name": "tsl_robin_map analyze-cxx17 ubuntu-16.04", 
-        "run_id": 296104019, 
-        "url": "https://api.github.com/repos/rbsheth/hunter/actions/jobs/1227789024", 
-        "html_url": "https://github.com/rbsheth/hunter/runs/1227789024", 
-        "completed_at": "2020-10-08T19:14:42Z", 
-        "run_url": "https://api.github.com/repos/rbsheth/hunter/actions/runs/296104019", 
-        "node_id": "MDg6Q2hlY2tSdW4xMjI3Nzg5MDI0", 
+        "run_id": 297744461, 
+        "url": "https://api.github.com/repos/rbsheth/hunter/actions/jobs/1232091191", 
+        "html_url": "https://github.com/rbsheth/hunter/runs/1232091191", 
+        "completed_at": "2020-10-09T15:25:46Z", 
+        "run_url": "https://api.github.com/repos/rbsheth/hunter/actions/runs/297744461", 
+        "node_id": "MDg6Q2hlY2tSdW4xMjMyMDkxMTkx", 
         "steps": [
             {
                 "status": "completed", 
                 "name": "Set up job", 
                 "number": 1, 
-                "completed_at": "2020-10-08T19:14:22.000Z", 
-                "started_at": "2020-10-08T19:14:19.000Z", 
+                "completed_at": "2020-10-09T15:25:14.000Z", 
+                "started_at": "2020-10-09T15:25:12.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Git checkout with submodules", 
                 "number": 2, 
-                "completed_at": "2020-10-08T19:14:25.000Z", 
-                "started_at": "2020-10-08T19:14:22.000Z", 
+                "completed_at": "2020-10-09T15:25:18.000Z", 
+                "started_at": "2020-10-09T15:25:14.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Set up Python", 
                 "number": 3, 
-                "completed_at": "2020-10-08T19:14:25.000Z", 
-                "started_at": "2020-10-08T19:14:25.000Z", 
+                "completed_at": "2020-10-09T15:25:18.000Z", 
+                "started_at": "2020-10-09T15:25:18.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Set up Python environment variable (Unix)", 
                 "number": 4, 
-                "completed_at": "2020-10-08T19:14:25.000Z", 
-                "started_at": "2020-10-08T19:14:25.000Z", 
+                "completed_at": "2020-10-09T15:25:18.000Z", 
+                "started_at": "2020-10-09T15:25:18.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Set up Python environment variable (Windows)", 
                 "number": 5, 
-                "completed_at": "2020-10-08T19:14:25.000Z", 
-                "started_at": "2020-10-08T19:14:25.000Z", 
+                "completed_at": "2020-10-09T15:25:18.000Z", 
+                "started_at": "2020-10-09T15:25:18.000Z", 
                 "conclusion": "skipped"
             }, 
             {
                 "status": "completed", 
                 "name": "Extract branch name", 
                 "number": 6, 
-                "completed_at": "2020-10-08T19:14:25.000Z", 
-                "started_at": "2020-10-08T19:14:25.000Z", 
+                "completed_at": "2020-10-09T15:25:18.000Z", 
+                "started_at": "2020-10-09T15:25:18.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Upgrade pip", 
                 "number": 7, 
-                "completed_at": "2020-10-08T19:14:26.000Z", 
-                "started_at": "2020-10-08T19:14:25.000Z", 
+                "completed_at": "2020-10-09T15:25:22.000Z", 
+                "started_at": "2020-10-09T15:25:18.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Build on Unix", 
                 "number": 8, 
-                "completed_at": "2020-10-08T19:14:42.000Z", 
-                "started_at": "2020-10-08T19:14:26.000Z", 
+                "completed_at": "2020-10-09T15:25:46.000Z", 
+                "started_at": "2020-10-09T15:25:22.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Build on Windows", 
                 "number": 9, 
-                "completed_at": "2020-10-08T19:14:42.000Z", 
-                "started_at": "2020-10-08T19:14:42.000Z", 
+                "completed_at": "2020-10-09T15:25:46.000Z", 
+                "started_at": "2020-10-09T15:25:46.000Z", 
                 "conclusion": "skipped"
             }, 
             {
                 "status": "completed", 
                 "name": "Post Git checkout with submodules", 
                 "number": 18, 
-                "completed_at": "2020-10-08T19:14:42.000Z", 
-                "started_at": "2020-10-08T19:14:42.000Z", 
+                "completed_at": "2020-10-09T15:25:46.000Z", 
+                "started_at": "2020-10-09T15:25:46.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Complete job", 
                 "number": 19, 
-                "completed_at": "2020-10-08T19:14:42.000Z", 
-                "started_at": "2020-10-08T19:14:42.000Z", 
+                "completed_at": "2020-10-09T15:25:46.000Z", 
+                "started_at": "2020-10-09T15:25:46.000Z", 
                 "conclusion": "success"
             }
         ], 
-        "head_sha": "0c27cab9c1b19f0383ced8305ed34c41e64b8ca3", 
-        "started_at": "2020-10-08T19:14:19Z", 
-        "id": 1227789024, 
+        "head_sha": "92add47fe97c4d71f5e7e6901d3e5e9c4d111cad", 
+        "started_at": "2020-10-09T15:25:12Z", 
+        "id": 1232091191, 
         "conclusion": "success"
     }, 
     {
         "status": "completed", 
-        "check_run_url": "https://api.github.com/repos/rbsheth/hunter/check-runs/1227789007", 
+        "check_run_url": "https://api.github.com/repos/rbsheth/hunter/check-runs/1232091163", 
         "name": "tsl_robin_map android-ndk-r17-api-24-arm64-v8a-clang-libcxx14 ubuntu-16.04", 
-        "run_id": 296104019, 
-        "url": "https://api.github.com/repos/rbsheth/hunter/actions/jobs/1227789007", 
-        "html_url": "https://github.com/rbsheth/hunter/runs/1227789007", 
-        "completed_at": "2020-10-08T19:15:19Z", 
-        "run_url": "https://api.github.com/repos/rbsheth/hunter/actions/runs/296104019", 
-        "node_id": "MDg6Q2hlY2tSdW4xMjI3Nzg5MDA3", 
+        "run_id": 297744461, 
+        "url": "https://api.github.com/repos/rbsheth/hunter/actions/jobs/1232091163", 
+        "html_url": "https://github.com/rbsheth/hunter/runs/1232091163", 
+        "completed_at": "2020-10-09T15:26:14Z", 
+        "run_url": "https://api.github.com/repos/rbsheth/hunter/actions/runs/297744461", 
+        "node_id": "MDg6Q2hlY2tSdW4xMjMyMDkxMTYz", 
         "steps": [
             {
                 "status": "completed", 
                 "name": "Set up job", 
                 "number": 1, 
-                "completed_at": "2020-10-08T19:14:22.000Z", 
-                "started_at": "2020-10-08T19:14:19.000Z", 
+                "completed_at": "2020-10-09T15:25:15.000Z", 
+                "started_at": "2020-10-09T15:25:13.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Git checkout with submodules", 
                 "number": 2, 
-                "completed_at": "2020-10-08T19:14:25.000Z", 
-                "started_at": "2020-10-08T19:14:22.000Z", 
+                "completed_at": "2020-10-09T15:25:20.000Z", 
+                "started_at": "2020-10-09T15:25:15.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Set up Python", 
                 "number": 3, 
-                "completed_at": "2020-10-08T19:14:25.000Z", 
-                "started_at": "2020-10-08T19:14:25.000Z", 
+                "completed_at": "2020-10-09T15:25:20.000Z", 
+                "started_at": "2020-10-09T15:25:20.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Set up Python environment variable (Unix)", 
                 "number": 4, 
-                "completed_at": "2020-10-08T19:14:25.000Z", 
-                "started_at": "2020-10-08T19:14:25.000Z", 
+                "completed_at": "2020-10-09T15:25:20.000Z", 
+                "started_at": "2020-10-09T15:25:20.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Set up Python environment variable (Windows)", 
                 "number": 5, 
-                "completed_at": "2020-10-08T19:14:25.000Z", 
-                "started_at": "2020-10-08T19:14:25.000Z", 
+                "completed_at": "2020-10-09T15:25:20.000Z", 
+                "started_at": "2020-10-09T15:25:20.000Z", 
                 "conclusion": "skipped"
             }, 
             {
                 "status": "completed", 
                 "name": "Extract branch name", 
                 "number": 6, 
-                "completed_at": "2020-10-08T19:14:25.000Z", 
-                "started_at": "2020-10-08T19:14:25.000Z", 
+                "completed_at": "2020-10-09T15:25:20.000Z", 
+                "started_at": "2020-10-09T15:25:20.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Upgrade pip", 
                 "number": 7, 
-                "completed_at": "2020-10-08T19:14:26.000Z", 
-                "started_at": "2020-10-08T19:14:25.000Z", 
+                "completed_at": "2020-10-09T15:25:24.000Z", 
+                "started_at": "2020-10-09T15:25:20.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Build on Unix", 
                 "number": 8, 
-                "completed_at": "2020-10-08T19:15:19.000Z", 
-                "started_at": "2020-10-08T19:14:26.000Z", 
+                "completed_at": "2020-10-09T15:26:13.000Z", 
+                "started_at": "2020-10-09T15:25:24.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Build on Windows", 
                 "number": 9, 
-                "completed_at": "2020-10-08T19:15:19.000Z", 
-                "started_at": "2020-10-08T19:15:19.000Z", 
+                "completed_at": "2020-10-09T15:26:13.000Z", 
+                "started_at": "2020-10-09T15:26:13.000Z", 
                 "conclusion": "skipped"
             }, 
             {
                 "status": "completed", 
                 "name": "Post Git checkout with submodules", 
                 "number": 18, 
-                "completed_at": "2020-10-08T19:15:19.000Z", 
-                "started_at": "2020-10-08T19:15:19.000Z", 
+                "completed_at": "2020-10-09T15:26:14.000Z", 
+                "started_at": "2020-10-09T15:26:13.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Complete job", 
                 "number": 19, 
-                "completed_at": "2020-10-08T19:15:19.000Z", 
-                "started_at": "2020-10-08T19:15:19.000Z", 
+                "completed_at": "2020-10-09T15:26:14.000Z", 
+                "started_at": "2020-10-09T15:26:14.000Z", 
                 "conclusion": "success"
             }
         ], 
-        "head_sha": "0c27cab9c1b19f0383ced8305ed34c41e64b8ca3", 
-        "started_at": "2020-10-08T19:14:19Z", 
-        "id": 1227789007, 
+        "head_sha": "92add47fe97c4d71f5e7e6901d3e5e9c4d111cad", 
+        "started_at": "2020-10-09T15:25:13Z", 
+        "id": 1232091163, 
         "conclusion": "success"
     }, 
     {
         "status": "completed", 
-        "check_run_url": "https://api.github.com/repos/rbsheth/hunter/check-runs/1227788938", 
+        "check_run_url": "https://api.github.com/repos/rbsheth/hunter/check-runs/1232091068", 
         "name": "tsl_robin_map clang-cxx17 ubuntu-16.04", 
-        "run_id": 296104019, 
-        "url": "https://api.github.com/repos/rbsheth/hunter/actions/jobs/1227788938", 
-        "html_url": "https://github.com/rbsheth/hunter/runs/1227788938", 
-        "completed_at": "2020-10-08T19:14:48Z", 
-        "run_url": "https://api.github.com/repos/rbsheth/hunter/actions/runs/296104019", 
-        "node_id": "MDg6Q2hlY2tSdW4xMjI3Nzg4OTM4", 
+        "run_id": 297744461, 
+        "url": "https://api.github.com/repos/rbsheth/hunter/actions/jobs/1232091068", 
+        "html_url": "https://github.com/rbsheth/hunter/runs/1232091068", 
+        "completed_at": "2020-10-09T15:25:46Z", 
+        "run_url": "https://api.github.com/repos/rbsheth/hunter/actions/runs/297744461", 
+        "node_id": "MDg6Q2hlY2tSdW4xMjMyMDkxMDY4", 
         "steps": [
             {
                 "status": "completed", 
                 "name": "Set up job", 
                 "number": 1, 
-                "completed_at": "2020-10-08T19:14:22.000Z", 
-                "started_at": "2020-10-08T19:14:19.000Z", 
+                "completed_at": "2020-10-09T15:25:17.000Z", 
+                "started_at": "2020-10-09T15:25:15.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Git checkout with submodules", 
                 "number": 2, 
-                "completed_at": "2020-10-08T19:14:25.000Z", 
-                "started_at": "2020-10-08T19:14:22.000Z", 
+                "completed_at": "2020-10-09T15:25:21.000Z", 
+                "started_at": "2020-10-09T15:25:17.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Set up Python", 
                 "number": 3, 
-                "completed_at": "2020-10-08T19:14:25.000Z", 
-                "started_at": "2020-10-08T19:14:25.000Z", 
+                "completed_at": "2020-10-09T15:25:21.000Z", 
+                "started_at": "2020-10-09T15:25:21.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Set up Python environment variable (Unix)", 
                 "number": 4, 
-                "completed_at": "2020-10-08T19:14:25.000Z", 
-                "started_at": "2020-10-08T19:14:25.000Z", 
+                "completed_at": "2020-10-09T15:25:21.000Z", 
+                "started_at": "2020-10-09T15:25:21.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Set up Python environment variable (Windows)", 
                 "number": 5, 
-                "completed_at": "2020-10-08T19:14:25.000Z", 
-                "started_at": "2020-10-08T19:14:25.000Z", 
+                "completed_at": "2020-10-09T15:25:21.000Z", 
+                "started_at": "2020-10-09T15:25:21.000Z", 
                 "conclusion": "skipped"
             }, 
             {
                 "status": "completed", 
                 "name": "Extract branch name", 
                 "number": 6, 
-                "completed_at": "2020-10-08T19:14:25.000Z", 
-                "started_at": "2020-10-08T19:14:25.000Z", 
+                "completed_at": "2020-10-09T15:25:21.000Z", 
+                "started_at": "2020-10-09T15:25:21.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Upgrade pip", 
                 "number": 7, 
-                "completed_at": "2020-10-08T19:14:28.000Z", 
-                "started_at": "2020-10-08T19:14:25.000Z", 
+                "completed_at": "2020-10-09T15:25:24.000Z", 
+                "started_at": "2020-10-09T15:25:21.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Build on Unix", 
                 "number": 8, 
-                "completed_at": "2020-10-08T19:14:48.000Z", 
-                "started_at": "2020-10-08T19:14:28.000Z", 
+                "completed_at": "2020-10-09T15:25:46.000Z", 
+                "started_at": "2020-10-09T15:25:24.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Build on Windows", 
                 "number": 9, 
-                "completed_at": "2020-10-08T19:14:48.000Z", 
-                "started_at": "2020-10-08T19:14:48.000Z", 
+                "completed_at": "2020-10-09T15:25:46.000Z", 
+                "started_at": "2020-10-09T15:25:46.000Z", 
                 "conclusion": "skipped"
             }, 
             {
                 "status": "completed", 
                 "name": "Post Git checkout with submodules", 
                 "number": 18, 
-                "completed_at": "2020-10-08T19:14:48.000Z", 
-                "started_at": "2020-10-08T19:14:48.000Z", 
+                "completed_at": "2020-10-09T15:25:46.000Z", 
+                "started_at": "2020-10-09T15:25:46.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Complete job", 
                 "number": 19, 
-                "completed_at": "2020-10-08T19:14:48.000Z", 
-                "started_at": "2020-10-08T19:14:48.000Z", 
+                "completed_at": "2020-10-09T15:25:46.000Z", 
+                "started_at": "2020-10-09T15:25:46.000Z", 
                 "conclusion": "success"
             }
         ], 
-        "head_sha": "0c27cab9c1b19f0383ced8305ed34c41e64b8ca3", 
-        "started_at": "2020-10-08T19:14:19Z", 
-        "id": 1227788938, 
+        "head_sha": "92add47fe97c4d71f5e7e6901d3e5e9c4d111cad", 
+        "started_at": "2020-10-09T15:25:15Z", 
+        "id": 1232091068, 
         "conclusion": "success"
     }, 
     {
         "status": "completed", 
-        "check_run_url": "https://api.github.com/repos/rbsheth/hunter/check-runs/1227788952", 
+        "check_run_url": "https://api.github.com/repos/rbsheth/hunter/check-runs/1232091092", 
         "name": "tsl_robin_map gcc-7-cxx17 ubuntu-16.04", 
-        "run_id": 296104019, 
-        "url": "https://api.github.com/repos/rbsheth/hunter/actions/jobs/1227788952", 
-        "html_url": "https://github.com/rbsheth/hunter/runs/1227788952", 
-        "completed_at": "2020-10-08T19:14:43Z", 
-        "run_url": "https://api.github.com/repos/rbsheth/hunter/actions/runs/296104019", 
-        "node_id": "MDg6Q2hlY2tSdW4xMjI3Nzg4OTUy", 
+        "run_id": 297744461, 
+        "url": "https://api.github.com/repos/rbsheth/hunter/actions/jobs/1232091092", 
+        "html_url": "https://github.com/rbsheth/hunter/runs/1232091092", 
+        "completed_at": "2020-10-09T15:26:10Z", 
+        "run_url": "https://api.github.com/repos/rbsheth/hunter/actions/runs/297744461", 
+        "node_id": "MDg6Q2hlY2tSdW4xMjMyMDkxMDky", 
         "steps": [
             {
                 "status": "completed", 
                 "name": "Set up job", 
                 "number": 1, 
-                "completed_at": "2020-10-08T19:14:23.000Z", 
-                "started_at": "2020-10-08T19:14:20.000Z", 
+                "completed_at": "2020-10-09T15:25:38.000Z", 
+                "started_at": "2020-10-09T15:25:35.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Git checkout with submodules", 
                 "number": 2, 
-                "completed_at": "2020-10-08T19:14:27.000Z", 
-                "started_at": "2020-10-08T19:14:23.000Z", 
+                "completed_at": "2020-10-09T15:25:46.000Z", 
+                "started_at": "2020-10-09T15:25:38.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Set up Python", 
                 "number": 3, 
-                "completed_at": "2020-10-08T19:14:27.000Z", 
-                "started_at": "2020-10-08T19:14:27.000Z", 
+                "completed_at": "2020-10-09T15:25:46.000Z", 
+                "started_at": "2020-10-09T15:25:46.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Set up Python environment variable (Unix)", 
                 "number": 4, 
-                "completed_at": "2020-10-08T19:14:27.000Z", 
-                "started_at": "2020-10-08T19:14:27.000Z", 
+                "completed_at": "2020-10-09T15:25:46.000Z", 
+                "started_at": "2020-10-09T15:25:46.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Set up Python environment variable (Windows)", 
                 "number": 5, 
-                "completed_at": "2020-10-08T19:14:27.000Z", 
-                "started_at": "2020-10-08T19:14:27.000Z", 
+                "completed_at": "2020-10-09T15:25:46.000Z", 
+                "started_at": "2020-10-09T15:25:46.000Z", 
                 "conclusion": "skipped"
             }, 
             {
                 "status": "completed", 
                 "name": "Extract branch name", 
                 "number": 6, 
-                "completed_at": "2020-10-08T19:14:27.000Z", 
-                "started_at": "2020-10-08T19:14:27.000Z", 
+                "completed_at": "2020-10-09T15:25:46.000Z", 
+                "started_at": "2020-10-09T15:25:46.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Upgrade pip", 
                 "number": 7, 
-                "completed_at": "2020-10-08T19:14:28.000Z", 
-                "started_at": "2020-10-08T19:14:27.000Z", 
+                "completed_at": "2020-10-09T15:25:49.000Z", 
+                "started_at": "2020-10-09T15:25:46.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Build on Unix", 
                 "number": 8, 
-                "completed_at": "2020-10-08T19:14:43.000Z", 
-                "started_at": "2020-10-08T19:14:28.000Z", 
+                "completed_at": "2020-10-09T15:26:10.000Z", 
+                "started_at": "2020-10-09T15:25:49.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Build on Windows", 
                 "number": 9, 
-                "completed_at": "2020-10-08T19:14:43.000Z", 
-                "started_at": "2020-10-08T19:14:43.000Z", 
+                "completed_at": "2020-10-09T15:26:10.000Z", 
+                "started_at": "2020-10-09T15:26:10.000Z", 
                 "conclusion": "skipped"
             }, 
             {
                 "status": "completed", 
                 "name": "Post Git checkout with submodules", 
                 "number": 18, 
-                "completed_at": "2020-10-08T19:14:43.000Z", 
-                "started_at": "2020-10-08T19:14:43.000Z", 
+                "completed_at": "2020-10-09T15:26:10.000Z", 
+                "started_at": "2020-10-09T15:26:10.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Complete job", 
                 "number": 19, 
-                "completed_at": "2020-10-08T19:14:43.000Z", 
-                "started_at": "2020-10-08T19:14:43.000Z", 
+                "completed_at": "2020-10-09T15:26:10.000Z", 
+                "started_at": "2020-10-09T15:26:10.000Z", 
                 "conclusion": "success"
             }
         ], 
-        "head_sha": "0c27cab9c1b19f0383ced8305ed34c41e64b8ca3", 
-        "started_at": "2020-10-08T19:14:20Z", 
-        "id": 1227788952, 
+        "head_sha": "92add47fe97c4d71f5e7e6901d3e5e9c4d111cad", 
+        "started_at": "2020-10-09T15:25:35Z", 
+        "id": 1232091092, 
         "conclusion": "success"
     }, 
     {
         "status": "completed", 
-        "check_run_url": "https://api.github.com/repos/rbsheth/hunter/check-runs/1227788971", 
+        "check_run_url": "https://api.github.com/repos/rbsheth/hunter/check-runs/1232091118", 
         "name": "tsl_robin_map gcc-8-cxx17-fpic ubuntu-18.04", 
-        "run_id": 296104019, 
-        "url": "https://api.github.com/repos/rbsheth/hunter/actions/jobs/1227788971", 
-        "html_url": "https://github.com/rbsheth/hunter/runs/1227788971", 
-        "completed_at": "2020-10-08T19:14:48Z", 
-        "run_url": "https://api.github.com/repos/rbsheth/hunter/actions/runs/296104019", 
-        "node_id": "MDg6Q2hlY2tSdW4xMjI3Nzg4OTcx", 
+        "run_id": 297744461, 
+        "url": "https://api.github.com/repos/rbsheth/hunter/actions/jobs/1232091118", 
+        "html_url": "https://github.com/rbsheth/hunter/runs/1232091118", 
+        "completed_at": "2020-10-09T15:26:02Z", 
+        "run_url": "https://api.github.com/repos/rbsheth/hunter/actions/runs/297744461", 
+        "node_id": "MDg6Q2hlY2tSdW4xMjMyMDkxMTE4", 
         "steps": [
             {
                 "status": "completed", 
                 "name": "Set up job", 
                 "number": 1, 
-                "completed_at": "2020-10-08T19:14:24.000Z", 
-                "started_at": "2020-10-08T19:14:20.000Z", 
+                "completed_at": "2020-10-09T15:25:38.000Z", 
+                "started_at": "2020-10-09T15:25:35.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Git checkout with submodules", 
                 "number": 2, 
-                "completed_at": "2020-10-08T19:14:28.000Z", 
-                "started_at": "2020-10-08T19:14:24.000Z", 
+                "completed_at": "2020-10-09T15:25:41.000Z", 
+                "started_at": "2020-10-09T15:25:38.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Set up Python", 
                 "number": 3, 
-                "completed_at": "2020-10-08T19:14:28.000Z", 
-                "started_at": "2020-10-08T19:14:28.000Z", 
+                "completed_at": "2020-10-09T15:25:41.000Z", 
+                "started_at": "2020-10-09T15:25:41.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Set up Python environment variable (Unix)", 
                 "number": 4, 
-                "completed_at": "2020-10-08T19:14:28.000Z", 
-                "started_at": "2020-10-08T19:14:28.000Z", 
+                "completed_at": "2020-10-09T15:25:41.000Z", 
+                "started_at": "2020-10-09T15:25:41.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Set up Python environment variable (Windows)", 
                 "number": 5, 
-                "completed_at": "2020-10-08T19:14:28.000Z", 
-                "started_at": "2020-10-08T19:14:28.000Z", 
+                "completed_at": "2020-10-09T15:25:41.000Z", 
+                "started_at": "2020-10-09T15:25:41.000Z", 
                 "conclusion": "skipped"
             }, 
             {
                 "status": "completed", 
                 "name": "Extract branch name", 
                 "number": 6, 
-                "completed_at": "2020-10-08T19:14:28.000Z", 
-                "started_at": "2020-10-08T19:14:28.000Z", 
+                "completed_at": "2020-10-09T15:25:41.000Z", 
+                "started_at": "2020-10-09T15:25:41.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Upgrade pip", 
                 "number": 7, 
-                "completed_at": "2020-10-08T19:14:29.000Z", 
-                "started_at": "2020-10-08T19:14:28.000Z", 
+                "completed_at": "2020-10-09T15:25:45.000Z", 
+                "started_at": "2020-10-09T15:25:41.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Build on Unix", 
                 "number": 8, 
-                "completed_at": "2020-10-08T19:14:48.000Z", 
-                "started_at": "2020-10-08T19:14:29.000Z", 
+                "completed_at": "2020-10-09T15:26:02.000Z", 
+                "started_at": "2020-10-09T15:25:45.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Build on Windows", 
                 "number": 9, 
-                "completed_at": "2020-10-08T19:14:48.000Z", 
-                "started_at": "2020-10-08T19:14:48.000Z", 
+                "completed_at": "2020-10-09T15:26:02.000Z", 
+                "started_at": "2020-10-09T15:26:02.000Z", 
                 "conclusion": "skipped"
             }, 
             {
                 "status": "completed", 
                 "name": "Post Git checkout with submodules", 
                 "number": 18, 
-                "completed_at": "2020-10-08T19:14:48.000Z", 
-                "started_at": "2020-10-08T19:14:48.000Z", 
+                "completed_at": "2020-10-09T15:26:02.000Z", 
+                "started_at": "2020-10-09T15:26:02.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Complete job", 
                 "number": 19, 
-                "completed_at": "2020-10-08T19:14:48.000Z", 
-                "started_at": "2020-10-08T19:14:48.000Z", 
+                "completed_at": "2020-10-09T15:26:02.000Z", 
+                "started_at": "2020-10-09T15:26:02.000Z", 
                 "conclusion": "success"
             }
         ], 
-        "head_sha": "0c27cab9c1b19f0383ced8305ed34c41e64b8ca3", 
-        "started_at": "2020-10-08T19:14:20Z", 
-        "id": 1227788971, 
+        "head_sha": "92add47fe97c4d71f5e7e6901d3e5e9c4d111cad", 
+        "started_at": "2020-10-09T15:25:35Z", 
+        "id": 1232091118, 
         "conclusion": "success"
     }, 
     {
         "status": "completed", 
-        "check_run_url": "https://api.github.com/repos/rbsheth/hunter/check-runs/1227788983", 
+        "check_run_url": "https://api.github.com/repos/rbsheth/hunter/check-runs/1232091142", 
         "name": "tsl_robin_map gcc-9-cxx17-fpic ubuntu-20.04", 
-        "run_id": 296104019, 
-        "url": "https://api.github.com/repos/rbsheth/hunter/actions/jobs/1227788983", 
-        "html_url": "https://github.com/rbsheth/hunter/runs/1227788983", 
-        "completed_at": "2020-10-08T19:14:46Z", 
-        "run_url": "https://api.github.com/repos/rbsheth/hunter/actions/runs/296104019", 
-        "node_id": "MDg6Q2hlY2tSdW4xMjI3Nzg4OTgz", 
+        "run_id": 297744461, 
+        "url": "https://api.github.com/repos/rbsheth/hunter/actions/jobs/1232091142", 
+        "html_url": "https://github.com/rbsheth/hunter/runs/1232091142", 
+        "completed_at": "2020-10-09T15:26:04Z", 
+        "run_url": "https://api.github.com/repos/rbsheth/hunter/actions/runs/297744461", 
+        "node_id": "MDg6Q2hlY2tSdW4xMjMyMDkxMTQy", 
         "steps": [
             {
                 "status": "completed", 
                 "name": "Set up job", 
                 "number": 1, 
-                "completed_at": "2020-10-08T19:14:23.000Z", 
-                "started_at": "2020-10-08T19:14:21.000Z", 
+                "completed_at": "2020-10-09T15:25:39.000Z", 
+                "started_at": "2020-10-09T15:25:36.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Git checkout with submodules", 
                 "number": 2, 
-                "completed_at": "2020-10-08T19:14:26.000Z", 
-                "started_at": "2020-10-08T19:14:23.000Z", 
+                "completed_at": "2020-10-09T15:25:43.000Z", 
+                "started_at": "2020-10-09T15:25:39.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Set up Python", 
                 "number": 3, 
-                "completed_at": "2020-10-08T19:14:27.000Z", 
-                "started_at": "2020-10-08T19:14:26.000Z", 
+                "completed_at": "2020-10-09T15:25:43.000Z", 
+                "started_at": "2020-10-09T15:25:43.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Set up Python environment variable (Unix)", 
                 "number": 4, 
-                "completed_at": "2020-10-08T19:14:27.000Z", 
-                "started_at": "2020-10-08T19:14:27.000Z", 
+                "completed_at": "2020-10-09T15:25:43.000Z", 
+                "started_at": "2020-10-09T15:25:43.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Set up Python environment variable (Windows)", 
                 "number": 5, 
-                "completed_at": "2020-10-08T19:14:27.000Z", 
-                "started_at": "2020-10-08T19:14:27.000Z", 
+                "completed_at": "2020-10-09T15:25:43.000Z", 
+                "started_at": "2020-10-09T15:25:43.000Z", 
                 "conclusion": "skipped"
             }, 
             {
                 "status": "completed", 
                 "name": "Extract branch name", 
                 "number": 6, 
-                "completed_at": "2020-10-08T19:14:27.000Z", 
-                "started_at": "2020-10-08T19:14:27.000Z", 
+                "completed_at": "2020-10-09T15:25:43.000Z", 
+                "started_at": "2020-10-09T15:25:43.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Upgrade pip", 
                 "number": 7, 
-                "completed_at": "2020-10-08T19:14:30.000Z", 
-                "started_at": "2020-10-08T19:14:27.000Z", 
+                "completed_at": "2020-10-09T15:25:48.000Z", 
+                "started_at": "2020-10-09T15:25:43.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Build on Unix", 
                 "number": 8, 
-                "completed_at": "2020-10-08T19:14:46.000Z", 
-                "started_at": "2020-10-08T19:14:30.000Z", 
+                "completed_at": "2020-10-09T15:26:04.000Z", 
+                "started_at": "2020-10-09T15:25:48.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Build on Windows", 
                 "number": 9, 
-                "completed_at": "2020-10-08T19:14:46.000Z", 
-                "started_at": "2020-10-08T19:14:46.000Z", 
+                "completed_at": "2020-10-09T15:26:04.000Z", 
+                "started_at": "2020-10-09T15:26:04.000Z", 
                 "conclusion": "skipped"
             }, 
             {
                 "status": "completed", 
                 "name": "Post Git checkout with submodules", 
                 "number": 18, 
-                "completed_at": "2020-10-08T19:14:46.000Z", 
-                "started_at": "2020-10-08T19:14:46.000Z", 
+                "completed_at": "2020-10-09T15:26:04.000Z", 
+                "started_at": "2020-10-09T15:26:04.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Complete job", 
                 "number": 19, 
-                "completed_at": "2020-10-08T19:14:46.000Z", 
-                "started_at": "2020-10-08T19:14:46.000Z", 
+                "completed_at": "2020-10-09T15:26:04.000Z", 
+                "started_at": "2020-10-09T15:26:04.000Z", 
                 "conclusion": "success"
             }
         ], 
-        "head_sha": "0c27cab9c1b19f0383ced8305ed34c41e64b8ca3", 
-        "started_at": "2020-10-08T19:14:21Z", 
-        "id": 1227788983, 
+        "head_sha": "92add47fe97c4d71f5e7e6901d3e5e9c4d111cad", 
+        "started_at": "2020-10-09T15:25:36Z", 
+        "id": 1232091142, 
         "conclusion": "success"
     }, 
     {
         "status": "completed", 
-        "check_run_url": "https://api.github.com/repos/rbsheth/hunter/check-runs/1227789116", 
-        "name": "tsl_robin_map ios-nocodesign-13-2-dep-9-3 macos-10.15", 
-        "run_id": 296104019, 
-        "url": "https://api.github.com/repos/rbsheth/hunter/actions/jobs/1227789116", 
-        "html_url": "https://github.com/rbsheth/hunter/runs/1227789116", 
-        "completed_at": "2020-10-08T19:16:14Z", 
-        "run_url": "https://api.github.com/repos/rbsheth/hunter/actions/runs/296104019", 
-        "node_id": "MDg6Q2hlY2tSdW4xMjI3Nzg5MTE2", 
-        "steps": [
-            {
-                "status": "completed", 
-                "name": "Set up job", 
-                "number": 1, 
-                "completed_at": "2020-10-08T19:14:30.000Z", 
-                "started_at": "2020-10-08T19:14:28.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Git checkout with submodules", 
-                "number": 2, 
-                "completed_at": "2020-10-08T19:14:34.000Z", 
-                "started_at": "2020-10-08T19:14:30.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python", 
-                "number": 3, 
-                "completed_at": "2020-10-08T19:14:34.000Z", 
-                "started_at": "2020-10-08T19:14:34.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python environment variable (Unix)", 
-                "number": 4, 
-                "completed_at": "2020-10-08T19:14:34.000Z", 
-                "started_at": "2020-10-08T19:14:34.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python environment variable (Windows)", 
-                "number": 5, 
-                "completed_at": "2020-10-08T19:14:34.000Z", 
-                "started_at": "2020-10-08T19:14:34.000Z", 
-                "conclusion": "skipped"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Extract branch name", 
-                "number": 6, 
-                "completed_at": "2020-10-08T19:14:34.000Z", 
-                "started_at": "2020-10-08T19:14:34.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Upgrade pip", 
-                "number": 7, 
-                "completed_at": "2020-10-08T19:14:37.000Z", 
-                "started_at": "2020-10-08T19:14:34.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Build on Unix", 
-                "number": 8, 
-                "completed_at": "2020-10-08T19:16:14.000Z", 
-                "started_at": "2020-10-08T19:14:37.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Build on Windows", 
-                "number": 9, 
-                "completed_at": "2020-10-08T19:16:14.000Z", 
-                "started_at": "2020-10-08T19:16:14.000Z", 
-                "conclusion": "skipped"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Post Git checkout with submodules", 
-                "number": 18, 
-                "completed_at": "2020-10-08T19:16:14.000Z", 
-                "started_at": "2020-10-08T19:16:14.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Complete job", 
-                "number": 19, 
-                "completed_at": "2020-10-08T19:16:14.000Z", 
-                "started_at": "2020-10-08T19:16:14.000Z", 
-                "conclusion": "success"
-            }
-        ], 
-        "head_sha": "0c27cab9c1b19f0383ced8305ed34c41e64b8ca3", 
-        "started_at": "2020-10-08T19:14:28Z", 
-        "id": 1227789116, 
-        "conclusion": "success"
-    }, 
-    {
-        "status": "completed", 
-        "check_run_url": "https://api.github.com/repos/rbsheth/hunter/check-runs/1227789205", 
-        "name": "tsl_robin_map mingw-cxx17 windows-2016", 
-        "run_id": 296104019, 
-        "url": "https://api.github.com/repos/rbsheth/hunter/actions/jobs/1227789205", 
-        "html_url": "https://github.com/rbsheth/hunter/runs/1227789205", 
-        "completed_at": "2020-10-08T19:15:49Z", 
-        "run_url": "https://api.github.com/repos/rbsheth/hunter/actions/runs/296104019", 
-        "node_id": "MDg6Q2hlY2tSdW4xMjI3Nzg5MjA1", 
-        "steps": [
-            {
-                "status": "completed", 
-                "name": "Set up job", 
-                "number": 1, 
-                "completed_at": "2020-10-08T19:14:23.000Z", 
-                "started_at": "2020-10-08T19:14:21.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Git checkout with submodules", 
-                "number": 2, 
-                "completed_at": "2020-10-08T19:14:38.000Z", 
-                "started_at": "2020-10-08T19:14:23.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python", 
-                "number": 3, 
-                "completed_at": "2020-10-08T19:14:38.000Z", 
-                "started_at": "2020-10-08T19:14:38.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python environment variable (Unix)", 
-                "number": 4, 
-                "completed_at": "2020-10-08T19:14:38.000Z", 
-                "started_at": "2020-10-08T19:14:38.000Z", 
-                "conclusion": "skipped"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python environment variable (Windows)", 
-                "number": 5, 
-                "completed_at": "2020-10-08T19:14:50.000Z", 
-                "started_at": "2020-10-08T19:14:38.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Extract branch name", 
-                "number": 6, 
-                "completed_at": "2020-10-08T19:14:50.000Z", 
-                "started_at": "2020-10-08T19:14:50.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Upgrade pip", 
-                "number": 7, 
-                "completed_at": "2020-10-08T19:14:58.000Z", 
-                "started_at": "2020-10-08T19:14:50.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Build on Unix", 
-                "number": 8, 
-                "completed_at": "2020-10-08T19:14:58.000Z", 
-                "started_at": "2020-10-08T19:14:58.000Z", 
-                "conclusion": "skipped"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Build on Windows", 
-                "number": 9, 
-                "completed_at": "2020-10-08T19:15:46.000Z", 
-                "started_at": "2020-10-08T19:14:58.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Post Git checkout with submodules", 
-                "number": 18, 
-                "completed_at": "2020-10-08T19:15:49.000Z", 
-                "started_at": "2020-10-08T19:15:46.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Complete job", 
-                "number": 19, 
-                "completed_at": "2020-10-08T19:15:49.000Z", 
-                "started_at": "2020-10-08T19:15:49.000Z", 
-                "conclusion": "success"
-            }
-        ], 
-        "head_sha": "0c27cab9c1b19f0383ced8305ed34c41e64b8ca3", 
-        "started_at": "2020-10-08T19:14:21Z", 
-        "id": 1227789205, 
-        "conclusion": "success"
-    }, 
-    {
-        "status": "completed", 
-        "check_run_url": "https://api.github.com/repos/rbsheth/hunter/check-runs/1227789220", 
-        "name": "tsl_robin_map msys-cxx17 windows-2016", 
-        "run_id": 296104019, 
-        "url": "https://api.github.com/repos/rbsheth/hunter/actions/jobs/1227789220", 
-        "html_url": "https://github.com/rbsheth/hunter/runs/1227789220", 
-        "completed_at": "2020-10-08T19:16:59Z", 
-        "run_url": "https://api.github.com/repos/rbsheth/hunter/actions/runs/296104019", 
-        "node_id": "MDg6Q2hlY2tSdW4xMjI3Nzg5MjIw", 
-        "steps": [
-            {
-                "status": "completed", 
-                "name": "Set up job", 
-                "number": 1, 
-                "completed_at": "2020-10-08T19:14:23.000Z", 
-                "started_at": "2020-10-08T19:14:21.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Git checkout with submodules", 
-                "number": 2, 
-                "completed_at": "2020-10-08T19:14:37.000Z", 
-                "started_at": "2020-10-08T19:14:23.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python", 
-                "number": 3, 
-                "completed_at": "2020-10-08T19:14:38.000Z", 
-                "started_at": "2020-10-08T19:14:37.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python environment variable (Unix)", 
-                "number": 4, 
-                "completed_at": "2020-10-08T19:14:38.000Z", 
-                "started_at": "2020-10-08T19:14:38.000Z", 
-                "conclusion": "skipped"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python environment variable (Windows)", 
-                "number": 5, 
-                "completed_at": "2020-10-08T19:14:49.000Z", 
-                "started_at": "2020-10-08T19:14:38.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Extract branch name", 
-                "number": 6, 
-                "completed_at": "2020-10-08T19:14:50.000Z", 
-                "started_at": "2020-10-08T19:14:49.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Upgrade pip", 
-                "number": 7, 
-                "completed_at": "2020-10-08T19:14:59.000Z", 
-                "started_at": "2020-10-08T19:14:50.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Build on Unix", 
-                "number": 8, 
-                "completed_at": "2020-10-08T19:14:59.000Z", 
-                "started_at": "2020-10-08T19:14:59.000Z", 
-                "conclusion": "skipped"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Build on Windows", 
-                "number": 9, 
-                "completed_at": "2020-10-08T19:16:57.000Z", 
-                "started_at": "2020-10-08T19:14:59.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Post Git checkout with submodules", 
-                "number": 18, 
-                "completed_at": "2020-10-08T19:16:59.000Z", 
-                "started_at": "2020-10-08T19:16:57.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Complete job", 
-                "number": 19, 
-                "completed_at": "2020-10-08T19:16:59.000Z", 
-                "started_at": "2020-10-08T19:16:59.000Z", 
-                "conclusion": "success"
-            }
-        ], 
-        "head_sha": "0c27cab9c1b19f0383ced8305ed34c41e64b8ca3", 
-        "started_at": "2020-10-08T19:14:21Z", 
-        "id": 1227789220, 
-        "conclusion": "success"
-    }, 
-    {
-        "status": "completed", 
-        "check_run_url": "https://api.github.com/repos/rbsheth/hunter/check-runs/1227789132", 
-        "name": "tsl_robin_map ninja-vs-15-2017-win64-cxx17 windows-2016", 
-        "run_id": 296104019, 
-        "url": "https://api.github.com/repos/rbsheth/hunter/actions/jobs/1227789132", 
-        "html_url": "https://github.com/rbsheth/hunter/runs/1227789132", 
-        "completed_at": "2020-10-08T19:15:57Z", 
-        "run_url": "https://api.github.com/repos/rbsheth/hunter/actions/runs/296104019", 
-        "node_id": "MDg6Q2hlY2tSdW4xMjI3Nzg5MTMy", 
-        "steps": [
-            {
-                "status": "completed", 
-                "name": "Set up job", 
-                "number": 1, 
-                "completed_at": "2020-10-08T19:14:23.000Z", 
-                "started_at": "2020-10-08T19:14:20.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Git checkout with submodules", 
-                "number": 2, 
-                "completed_at": "2020-10-08T19:14:41.000Z", 
-                "started_at": "2020-10-08T19:14:23.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python", 
-                "number": 3, 
-                "completed_at": "2020-10-08T19:14:41.000Z", 
-                "started_at": "2020-10-08T19:14:41.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python environment variable (Unix)", 
-                "number": 4, 
-                "completed_at": "2020-10-08T19:14:41.000Z", 
-                "started_at": "2020-10-08T19:14:41.000Z", 
-                "conclusion": "skipped"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python environment variable (Windows)", 
-                "number": 5, 
-                "completed_at": "2020-10-08T19:14:52.000Z", 
-                "started_at": "2020-10-08T19:14:41.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Extract branch name", 
-                "number": 6, 
-                "completed_at": "2020-10-08T19:14:52.000Z", 
-                "started_at": "2020-10-08T19:14:52.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Upgrade pip", 
-                "number": 7, 
-                "completed_at": "2020-10-08T19:15:01.000Z", 
-                "started_at": "2020-10-08T19:14:52.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Build on Unix", 
-                "number": 8, 
-                "completed_at": "2020-10-08T19:15:01.000Z", 
-                "started_at": "2020-10-08T19:15:01.000Z", 
-                "conclusion": "skipped"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Build on Windows", 
-                "number": 9, 
-                "completed_at": "2020-10-08T19:15:54.000Z", 
-                "started_at": "2020-10-08T19:15:01.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Post Git checkout with submodules", 
-                "number": 18, 
-                "completed_at": "2020-10-08T19:15:57.000Z", 
-                "started_at": "2020-10-08T19:15:54.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Complete job", 
-                "number": 19, 
-                "completed_at": "2020-10-08T19:15:57.000Z", 
-                "started_at": "2020-10-08T19:15:57.000Z", 
-                "conclusion": "success"
-            }
-        ], 
-        "head_sha": "0c27cab9c1b19f0383ced8305ed34c41e64b8ca3", 
-        "started_at": "2020-10-08T19:14:20Z", 
-        "id": 1227789132, 
-        "conclusion": "success"
-    }, 
-    {
-        "status": "completed", 
-        "check_run_url": "https://api.github.com/repos/rbsheth/hunter/check-runs/1227789147", 
-        "name": "tsl_robin_map nmake-vs-15-2017-win64-cxx17 windows-2016", 
-        "run_id": 296104019, 
-        "url": "https://api.github.com/repos/rbsheth/hunter/actions/jobs/1227789147", 
-        "html_url": "https://github.com/rbsheth/hunter/runs/1227789147", 
-        "completed_at": "2020-10-08T19:16:03Z", 
-        "run_url": "https://api.github.com/repos/rbsheth/hunter/actions/runs/296104019", 
-        "node_id": "MDg6Q2hlY2tSdW4xMjI3Nzg5MTQ3", 
-        "steps": [
-            {
-                "status": "completed", 
-                "name": "Set up job", 
-                "number": 1, 
-                "completed_at": "2020-10-08T19:14:26.000Z", 
-                "started_at": "2020-10-08T19:14:23.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Git checkout with submodules", 
-                "number": 2, 
-                "completed_at": "2020-10-08T19:14:42.000Z", 
-                "started_at": "2020-10-08T19:14:26.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python", 
-                "number": 3, 
-                "completed_at": "2020-10-08T19:14:42.000Z", 
-                "started_at": "2020-10-08T19:14:42.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python environment variable (Unix)", 
-                "number": 4, 
-                "completed_at": "2020-10-08T19:14:42.000Z", 
-                "started_at": "2020-10-08T19:14:42.000Z", 
-                "conclusion": "skipped"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python environment variable (Windows)", 
-                "number": 5, 
-                "completed_at": "2020-10-08T19:14:55.000Z", 
-                "started_at": "2020-10-08T19:14:42.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Extract branch name", 
-                "number": 6, 
-                "completed_at": "2020-10-08T19:14:55.000Z", 
-                "started_at": "2020-10-08T19:14:55.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Upgrade pip", 
-                "number": 7, 
-                "completed_at": "2020-10-08T19:15:03.000Z", 
-                "started_at": "2020-10-08T19:14:55.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Build on Unix", 
-                "number": 8, 
-                "completed_at": "2020-10-08T19:15:03.000Z", 
-                "started_at": "2020-10-08T19:15:03.000Z", 
-                "conclusion": "skipped"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Build on Windows", 
-                "number": 9, 
-                "completed_at": "2020-10-08T19:16:00.000Z", 
-                "started_at": "2020-10-08T19:15:03.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Post Git checkout with submodules", 
-                "number": 18, 
-                "completed_at": "2020-10-08T19:16:03.000Z", 
-                "started_at": "2020-10-08T19:16:00.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Complete job", 
-                "number": 19, 
-                "completed_at": "2020-10-08T19:16:03.000Z", 
-                "started_at": "2020-10-08T19:16:03.000Z", 
-                "conclusion": "success"
-            }
-        ], 
-        "head_sha": "0c27cab9c1b19f0383ced8305ed34c41e64b8ca3", 
-        "started_at": "2020-10-08T19:14:23Z", 
-        "id": 1227789147, 
-        "conclusion": "success"
-    }, 
-    {
-        "status": "completed", 
-        "check_run_url": "https://api.github.com/repos/rbsheth/hunter/check-runs/1227789082", 
-        "name": "tsl_robin_map osx-10-13-cxx14 macos-10.15", 
-        "run_id": 296104019, 
-        "url": "https://api.github.com/repos/rbsheth/hunter/actions/jobs/1227789082", 
-        "html_url": "https://github.com/rbsheth/hunter/runs/1227789082", 
-        "completed_at": "2020-10-08T19:17:57Z", 
-        "run_url": "https://api.github.com/repos/rbsheth/hunter/actions/runs/296104019", 
-        "node_id": "MDg6Q2hlY2tSdW4xMjI3Nzg5MDgy", 
-        "steps": [
-            {
-                "status": "completed", 
-                "name": "Set up job", 
-                "number": 1, 
-                "completed_at": "2020-10-08T19:14:58.000Z", 
-                "started_at": "2020-10-08T19:14:37.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Git checkout with submodules", 
-                "number": 2, 
-                "completed_at": "2020-10-08T19:16:35.000Z", 
-                "started_at": "2020-10-08T19:14:58.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python", 
-                "number": 3, 
-                "completed_at": "2020-10-08T19:16:35.000Z", 
-                "started_at": "2020-10-08T19:16:35.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python environment variable (Unix)", 
-                "number": 4, 
-                "completed_at": "2020-10-08T19:16:35.000Z", 
-                "started_at": "2020-10-08T19:16:35.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python environment variable (Windows)", 
-                "number": 5, 
-                "completed_at": "2020-10-08T19:16:35.000Z", 
-                "started_at": "2020-10-08T19:16:35.000Z", 
-                "conclusion": "skipped"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Extract branch name", 
-                "number": 6, 
-                "completed_at": "2020-10-08T19:16:35.000Z", 
-                "started_at": "2020-10-08T19:16:35.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Upgrade pip", 
-                "number": 7, 
-                "completed_at": "2020-10-08T19:16:36.000Z", 
-                "started_at": "2020-10-08T19:16:35.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Build on Unix", 
-                "number": 8, 
-                "completed_at": "2020-10-08T19:17:56.000Z", 
-                "started_at": "2020-10-08T19:16:36.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Build on Windows", 
-                "number": 9, 
-                "completed_at": "2020-10-08T19:17:56.000Z", 
-                "started_at": "2020-10-08T19:17:56.000Z", 
-                "conclusion": "skipped"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Post Git checkout with submodules", 
-                "number": 18, 
-                "completed_at": "2020-10-08T19:17:57.000Z", 
-                "started_at": "2020-10-08T19:17:56.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Complete job", 
-                "number": 19, 
-                "completed_at": "2020-10-08T19:17:57.000Z", 
-                "started_at": "2020-10-08T19:17:57.000Z", 
-                "conclusion": "success"
-            }
-        ], 
-        "head_sha": "0c27cab9c1b19f0383ced8305ed34c41e64b8ca3", 
-        "started_at": "2020-10-08T19:14:37Z", 
-        "id": 1227789082, 
-        "conclusion": "success"
-    }, 
-    {
-        "status": "completed", 
-        "check_run_url": "https://api.github.com/repos/rbsheth/hunter/check-runs/1227789073", 
-        "name": "tsl_robin_map osx-10-13-make-cxx14 macos-10.15", 
-        "run_id": 296104019, 
-        "url": "https://api.github.com/repos/rbsheth/hunter/actions/jobs/1227789073", 
-        "html_url": "https://github.com/rbsheth/hunter/runs/1227789073", 
-        "completed_at": "2020-10-08T19:15:26Z", 
-        "run_url": "https://api.github.com/repos/rbsheth/hunter/actions/runs/296104019", 
-        "node_id": "MDg6Q2hlY2tSdW4xMjI3Nzg5MDcz", 
-        "steps": [
-            {
-                "status": "completed", 
-                "name": "Set up job", 
-                "number": 1, 
-                "completed_at": "2020-10-08T19:14:32.000Z", 
-                "started_at": "2020-10-08T19:14:30.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Git checkout with submodules", 
-                "number": 2, 
-                "completed_at": "2020-10-08T19:14:38.000Z", 
-                "started_at": "2020-10-08T19:14:32.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python", 
-                "number": 3, 
-                "completed_at": "2020-10-08T19:14:38.000Z", 
-                "started_at": "2020-10-08T19:14:38.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python environment variable (Unix)", 
-                "number": 4, 
-                "completed_at": "2020-10-08T19:14:38.000Z", 
-                "started_at": "2020-10-08T19:14:38.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python environment variable (Windows)", 
-                "number": 5, 
-                "completed_at": "2020-10-08T19:14:38.000Z", 
-                "started_at": "2020-10-08T19:14:38.000Z", 
-                "conclusion": "skipped"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Extract branch name", 
-                "number": 6, 
-                "completed_at": "2020-10-08T19:14:38.000Z", 
-                "started_at": "2020-10-08T19:14:38.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Upgrade pip", 
-                "number": 7, 
-                "completed_at": "2020-10-08T19:14:41.000Z", 
-                "started_at": "2020-10-08T19:14:38.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Build on Unix", 
-                "number": 8, 
-                "completed_at": "2020-10-08T19:15:25.000Z", 
-                "started_at": "2020-10-08T19:14:41.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Build on Windows", 
-                "number": 9, 
-                "completed_at": "2020-10-08T19:15:25.000Z", 
-                "started_at": "2020-10-08T19:15:25.000Z", 
-                "conclusion": "skipped"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Post Git checkout with submodules", 
-                "number": 18, 
-                "completed_at": "2020-10-08T19:15:26.000Z", 
-                "started_at": "2020-10-08T19:15:25.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Complete job", 
-                "number": 19, 
-                "completed_at": "2020-10-08T19:15:26.000Z", 
-                "started_at": "2020-10-08T19:15:26.000Z", 
-                "conclusion": "success"
-            }
-        ], 
-        "head_sha": "0c27cab9c1b19f0383ced8305ed34c41e64b8ca3", 
-        "started_at": "2020-10-08T19:14:30Z", 
-        "id": 1227789073, 
-        "conclusion": "success"
-    }, 
-    {
-        "status": "completed", 
-        "check_run_url": "https://api.github.com/repos/rbsheth/hunter/check-runs/1227789098", 
-        "name": "tsl_robin_map osx-10-15-dep-10-10-cxx17 macos-10.15", 
-        "run_id": 296104019, 
-        "url": "https://api.github.com/repos/rbsheth/hunter/actions/jobs/1227789098", 
-        "html_url": "https://github.com/rbsheth/hunter/runs/1227789098", 
-        "completed_at": "2020-10-08T19:16:03Z", 
-        "run_url": "https://api.github.com/repos/rbsheth/hunter/actions/runs/296104019", 
-        "node_id": "MDg6Q2hlY2tSdW4xMjI3Nzg5MDk4", 
-        "steps": [
-            {
-                "status": "completed", 
-                "name": "Set up job", 
-                "number": 1, 
-                "completed_at": "2020-10-08T19:14:29.000Z", 
-                "started_at": "2020-10-08T19:14:28.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Git checkout with submodules", 
-                "number": 2, 
-                "completed_at": "2020-10-08T19:14:34.000Z", 
-                "started_at": "2020-10-08T19:14:29.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python", 
-                "number": 3, 
-                "completed_at": "2020-10-08T19:14:35.000Z", 
-                "started_at": "2020-10-08T19:14:34.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python environment variable (Unix)", 
-                "number": 4, 
-                "completed_at": "2020-10-08T19:14:35.000Z", 
-                "started_at": "2020-10-08T19:14:35.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python environment variable (Windows)", 
-                "number": 5, 
-                "completed_at": "2020-10-08T19:14:35.000Z", 
-                "started_at": "2020-10-08T19:14:35.000Z", 
-                "conclusion": "skipped"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Extract branch name", 
-                "number": 6, 
-                "completed_at": "2020-10-08T19:14:35.000Z", 
-                "started_at": "2020-10-08T19:14:35.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Upgrade pip", 
-                "number": 7, 
-                "completed_at": "2020-10-08T19:14:37.000Z", 
-                "started_at": "2020-10-08T19:14:35.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Build on Unix", 
-                "number": 8, 
-                "completed_at": "2020-10-08T19:16:02.000Z", 
-                "started_at": "2020-10-08T19:14:37.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Build on Windows", 
-                "number": 9, 
-                "completed_at": "2020-10-08T19:16:02.000Z", 
-                "started_at": "2020-10-08T19:16:02.000Z", 
-                "conclusion": "skipped"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Post Git checkout with submodules", 
-                "number": 18, 
-                "completed_at": "2020-10-08T19:16:03.000Z", 
-                "started_at": "2020-10-08T19:16:02.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Complete job", 
-                "number": 19, 
-                "completed_at": "2020-10-08T19:16:03.000Z", 
-                "started_at": "2020-10-08T19:16:03.000Z", 
-                "conclusion": "success"
-            }
-        ], 
-        "head_sha": "0c27cab9c1b19f0383ced8305ed34c41e64b8ca3", 
-        "started_at": "2020-10-08T19:14:28Z", 
-        "id": 1227789098, 
-        "conclusion": "success"
-    }, 
-    {
-        "status": "completed", 
-        "check_run_url": "https://api.github.com/repos/rbsheth/hunter/check-runs/1227789037", 
+        "check_run_url": "https://api.github.com/repos/rbsheth/hunter/check-runs/1232091233", 
         "name": "tsl_robin_map sanitize-address-cxx17 ubuntu-16.04", 
-        "run_id": 296104019, 
-        "url": "https://api.github.com/repos/rbsheth/hunter/actions/jobs/1227789037", 
-        "html_url": "https://github.com/rbsheth/hunter/runs/1227789037", 
-        "completed_at": "2020-10-08T19:15:04Z", 
-        "run_url": "https://api.github.com/repos/rbsheth/hunter/actions/runs/296104019", 
-        "node_id": "MDg6Q2hlY2tSdW4xMjI3Nzg5MDM3", 
+        "run_id": 297744461, 
+        "url": "https://api.github.com/repos/rbsheth/hunter/actions/jobs/1232091233", 
+        "html_url": "https://github.com/rbsheth/hunter/runs/1232091233", 
+        "completed_at": "2020-10-09T15:27:08Z", 
+        "run_url": "https://api.github.com/repos/rbsheth/hunter/actions/runs/297744461", 
+        "node_id": "MDg6Q2hlY2tSdW4xMjMyMDkxMjMz", 
         "steps": [
             {
                 "status": "completed", 
                 "name": "Set up job", 
                 "number": 1, 
-                "completed_at": "2020-10-08T19:14:25.000Z", 
-                "started_at": "2020-10-08T19:14:21.000Z", 
+                "completed_at": "2020-10-09T15:26:30.000Z", 
+                "started_at": "2020-10-09T15:26:26.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Git checkout with submodules", 
                 "number": 2, 
-                "completed_at": "2020-10-08T19:14:32.000Z", 
-                "started_at": "2020-10-08T19:14:25.000Z", 
+                "completed_at": "2020-10-09T15:26:39.000Z", 
+                "started_at": "2020-10-09T15:26:30.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Set up Python", 
                 "number": 3, 
-                "completed_at": "2020-10-08T19:14:32.000Z", 
-                "started_at": "2020-10-08T19:14:32.000Z", 
+                "completed_at": "2020-10-09T15:26:39.000Z", 
+                "started_at": "2020-10-09T15:26:39.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Set up Python environment variable (Unix)", 
                 "number": 4, 
-                "completed_at": "2020-10-08T19:14:32.000Z", 
-                "started_at": "2020-10-08T19:14:32.000Z", 
+                "completed_at": "2020-10-09T15:26:39.000Z", 
+                "started_at": "2020-10-09T15:26:39.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Set up Python environment variable (Windows)", 
                 "number": 5, 
-                "completed_at": "2020-10-08T19:14:32.000Z", 
-                "started_at": "2020-10-08T19:14:32.000Z", 
+                "completed_at": "2020-10-09T15:26:39.000Z", 
+                "started_at": "2020-10-09T15:26:39.000Z", 
                 "conclusion": "skipped"
             }, 
             {
                 "status": "completed", 
                 "name": "Extract branch name", 
                 "number": 6, 
-                "completed_at": "2020-10-08T19:14:32.000Z", 
-                "started_at": "2020-10-08T19:14:32.000Z", 
+                "completed_at": "2020-10-09T15:26:39.000Z", 
+                "started_at": "2020-10-09T15:26:39.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Upgrade pip", 
                 "number": 7, 
-                "completed_at": "2020-10-08T19:14:35.000Z", 
-                "started_at": "2020-10-08T19:14:32.000Z", 
+                "completed_at": "2020-10-09T15:26:41.000Z", 
+                "started_at": "2020-10-09T15:26:39.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Build on Unix", 
                 "number": 8, 
-                "completed_at": "2020-10-08T19:15:04.000Z", 
-                "started_at": "2020-10-08T19:14:35.000Z", 
+                "completed_at": "2020-10-09T15:27:08.000Z", 
+                "started_at": "2020-10-09T15:26:41.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Build on Windows", 
                 "number": 9, 
-                "completed_at": "2020-10-08T19:15:04.000Z", 
-                "started_at": "2020-10-08T19:15:04.000Z", 
+                "completed_at": "2020-10-09T15:27:08.000Z", 
+                "started_at": "2020-10-09T15:27:08.000Z", 
                 "conclusion": "skipped"
             }, 
             {
                 "status": "completed", 
                 "name": "Post Git checkout with submodules", 
                 "number": 18, 
-                "completed_at": "2020-10-08T19:15:04.000Z", 
-                "started_at": "2020-10-08T19:15:04.000Z", 
+                "completed_at": "2020-10-09T15:27:08.000Z", 
+                "started_at": "2020-10-09T15:27:08.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Complete job", 
                 "number": 19, 
-                "completed_at": "2020-10-08T19:15:04.000Z", 
-                "started_at": "2020-10-08T19:15:04.000Z", 
+                "completed_at": "2020-10-09T15:27:08.000Z", 
+                "started_at": "2020-10-09T15:27:08.000Z", 
                 "conclusion": "success"
             }
         ], 
-        "head_sha": "0c27cab9c1b19f0383ced8305ed34c41e64b8ca3", 
-        "started_at": "2020-10-08T19:14:21Z", 
-        "id": 1227789037, 
+        "head_sha": "92add47fe97c4d71f5e7e6901d3e5e9c4d111cad", 
+        "started_at": "2020-10-09T15:26:26Z", 
+        "id": 1232091233, 
         "conclusion": "success"
     }, 
     {
         "status": "completed", 
-        "check_run_url": "https://api.github.com/repos/rbsheth/hunter/check-runs/1227789048", 
+        "check_run_url": "https://api.github.com/repos/rbsheth/hunter/check-runs/1232091270", 
         "name": "tsl_robin_map sanitize-leak-cxx17 ubuntu-16.04", 
-        "run_id": 296104019, 
-        "url": "https://api.github.com/repos/rbsheth/hunter/actions/jobs/1227789048", 
-        "html_url": "https://github.com/rbsheth/hunter/runs/1227789048", 
-        "completed_at": "2020-10-08T19:15:16Z", 
-        "run_url": "https://api.github.com/repos/rbsheth/hunter/actions/runs/296104019", 
-        "node_id": "MDg6Q2hlY2tSdW4xMjI3Nzg5MDQ4", 
+        "run_id": 297744461, 
+        "url": "https://api.github.com/repos/rbsheth/hunter/actions/jobs/1232091270", 
+        "html_url": "https://github.com/rbsheth/hunter/runs/1232091270", 
+        "completed_at": "2020-10-09T15:27:05Z", 
+        "run_url": "https://api.github.com/repos/rbsheth/hunter/actions/runs/297744461", 
+        "node_id": "MDg6Q2hlY2tSdW4xMjMyMDkxMjcw", 
         "steps": [
             {
                 "status": "completed", 
                 "name": "Set up job", 
                 "number": 1, 
-                "completed_at": "2020-10-08T19:14:27.000Z", 
-                "started_at": "2020-10-08T19:14:23.000Z", 
+                "completed_at": "2020-10-09T15:26:36.000Z", 
+                "started_at": "2020-10-09T15:26:32.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Git checkout with submodules", 
                 "number": 2, 
-                "completed_at": "2020-10-08T19:14:47.000Z", 
-                "started_at": "2020-10-08T19:14:27.000Z", 
+                "completed_at": "2020-10-09T15:26:42.000Z", 
+                "started_at": "2020-10-09T15:26:36.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Set up Python", 
                 "number": 3, 
-                "completed_at": "2020-10-08T19:14:47.000Z", 
-                "started_at": "2020-10-08T19:14:47.000Z", 
+                "completed_at": "2020-10-09T15:26:42.000Z", 
+                "started_at": "2020-10-09T15:26:42.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Set up Python environment variable (Unix)", 
                 "number": 4, 
-                "completed_at": "2020-10-08T19:14:47.000Z", 
-                "started_at": "2020-10-08T19:14:47.000Z", 
+                "completed_at": "2020-10-09T15:26:42.000Z", 
+                "started_at": "2020-10-09T15:26:42.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Set up Python environment variable (Windows)", 
                 "number": 5, 
-                "completed_at": "2020-10-08T19:14:47.000Z", 
-                "started_at": "2020-10-08T19:14:47.000Z", 
+                "completed_at": "2020-10-09T15:26:42.000Z", 
+                "started_at": "2020-10-09T15:26:42.000Z", 
                 "conclusion": "skipped"
             }, 
             {
                 "status": "completed", 
                 "name": "Extract branch name", 
                 "number": 6, 
-                "completed_at": "2020-10-08T19:14:47.000Z", 
-                "started_at": "2020-10-08T19:14:47.000Z", 
+                "completed_at": "2020-10-09T15:26:42.000Z", 
+                "started_at": "2020-10-09T15:26:42.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Upgrade pip", 
                 "number": 7, 
-                "completed_at": "2020-10-08T19:14:50.000Z", 
-                "started_at": "2020-10-08T19:14:47.000Z", 
+                "completed_at": "2020-10-09T15:26:44.000Z", 
+                "started_at": "2020-10-09T15:26:42.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Build on Unix", 
                 "number": 8, 
-                "completed_at": "2020-10-08T19:15:16.000Z", 
-                "started_at": "2020-10-08T19:14:50.000Z", 
+                "completed_at": "2020-10-09T15:27:05.000Z", 
+                "started_at": "2020-10-09T15:26:44.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Build on Windows", 
                 "number": 9, 
-                "completed_at": "2020-10-08T19:15:16.000Z", 
-                "started_at": "2020-10-08T19:15:16.000Z", 
+                "completed_at": "2020-10-09T15:27:05.000Z", 
+                "started_at": "2020-10-09T15:27:05.000Z", 
                 "conclusion": "skipped"
             }, 
             {
                 "status": "completed", 
                 "name": "Post Git checkout with submodules", 
                 "number": 18, 
-                "completed_at": "2020-10-08T19:15:16.000Z", 
-                "started_at": "2020-10-08T19:15:16.000Z", 
+                "completed_at": "2020-10-09T15:27:05.000Z", 
+                "started_at": "2020-10-09T15:27:05.000Z", 
                 "conclusion": "success"
             }, 
             {
                 "status": "completed", 
                 "name": "Complete job", 
                 "number": 19, 
-                "completed_at": "2020-10-08T19:15:16.000Z", 
-                "started_at": "2020-10-08T19:15:16.000Z", 
+                "completed_at": "2020-10-09T15:27:05.000Z", 
+                "started_at": "2020-10-09T15:27:05.000Z", 
                 "conclusion": "success"
             }
         ], 
-        "head_sha": "0c27cab9c1b19f0383ced8305ed34c41e64b8ca3", 
-        "started_at": "2020-10-08T19:14:23Z", 
-        "id": 1227789048, 
-        "conclusion": "success"
-    }, 
-    {
-        "status": "completed", 
-        "check_run_url": "https://api.github.com/repos/rbsheth/hunter/check-runs/1227789061", 
-        "name": "tsl_robin_map sanitize-thread-cxx17 ubuntu-16.04", 
-        "run_id": 296104019, 
-        "url": "https://api.github.com/repos/rbsheth/hunter/actions/jobs/1227789061", 
-        "html_url": "https://github.com/rbsheth/hunter/runs/1227789061", 
-        "completed_at": "2020-10-08T19:15:05Z", 
-        "run_url": "https://api.github.com/repos/rbsheth/hunter/actions/runs/296104019", 
-        "node_id": "MDg6Q2hlY2tSdW4xMjI3Nzg5MDYx", 
-        "steps": [
-            {
-                "status": "completed", 
-                "name": "Set up job", 
-                "number": 1, 
-                "completed_at": "2020-10-08T19:14:26.000Z", 
-                "started_at": "2020-10-08T19:14:22.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Git checkout with submodules", 
-                "number": 2, 
-                "completed_at": "2020-10-08T19:14:33.000Z", 
-                "started_at": "2020-10-08T19:14:26.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python", 
-                "number": 3, 
-                "completed_at": "2020-10-08T19:14:33.000Z", 
-                "started_at": "2020-10-08T19:14:33.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python environment variable (Unix)", 
-                "number": 4, 
-                "completed_at": "2020-10-08T19:14:33.000Z", 
-                "started_at": "2020-10-08T19:14:33.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python environment variable (Windows)", 
-                "number": 5, 
-                "completed_at": "2020-10-08T19:14:33.000Z", 
-                "started_at": "2020-10-08T19:14:33.000Z", 
-                "conclusion": "skipped"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Extract branch name", 
-                "number": 6, 
-                "completed_at": "2020-10-08T19:14:33.000Z", 
-                "started_at": "2020-10-08T19:14:33.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Upgrade pip", 
-                "number": 7, 
-                "completed_at": "2020-10-08T19:14:37.000Z", 
-                "started_at": "2020-10-08T19:14:33.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Build on Unix", 
-                "number": 8, 
-                "completed_at": "2020-10-08T19:15:05.000Z", 
-                "started_at": "2020-10-08T19:14:37.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Build on Windows", 
-                "number": 9, 
-                "completed_at": "2020-10-08T19:15:05.000Z", 
-                "started_at": "2020-10-08T19:15:05.000Z", 
-                "conclusion": "skipped"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Post Git checkout with submodules", 
-                "number": 18, 
-                "completed_at": "2020-10-08T19:15:05.000Z", 
-                "started_at": "2020-10-08T19:15:05.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Complete job", 
-                "number": 19, 
-                "completed_at": "2020-10-08T19:15:05.000Z", 
-                "started_at": "2020-10-08T19:15:05.000Z", 
-                "conclusion": "success"
-            }
-        ], 
-        "head_sha": "0c27cab9c1b19f0383ced8305ed34c41e64b8ca3", 
-        "started_at": "2020-10-08T19:14:22Z", 
-        "id": 1227789061, 
-        "conclusion": "success"
-    }, 
-    {
-        "status": "completed", 
-        "check_run_url": "https://api.github.com/repos/rbsheth/hunter/check-runs/1227789193", 
-        "name": "tsl_robin_map vs-14-2015-sdk-8-1 windows-2016", 
-        "run_id": 296104019, 
-        "url": "https://api.github.com/repos/rbsheth/hunter/actions/jobs/1227789193", 
-        "html_url": "https://github.com/rbsheth/hunter/runs/1227789193", 
-        "completed_at": "2020-10-08T19:17:27Z", 
-        "run_url": "https://api.github.com/repos/rbsheth/hunter/actions/runs/296104019", 
-        "node_id": "MDg6Q2hlY2tSdW4xMjI3Nzg5MTkz", 
-        "steps": [
-            {
-                "status": "completed", 
-                "name": "Set up job", 
-                "number": 1, 
-                "completed_at": "2020-10-08T19:14:26.000Z", 
-                "started_at": "2020-10-08T19:14:23.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Git checkout with submodules", 
-                "number": 2, 
-                "completed_at": "2020-10-08T19:14:42.000Z", 
-                "started_at": "2020-10-08T19:14:26.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python", 
-                "number": 3, 
-                "completed_at": "2020-10-08T19:14:42.000Z", 
-                "started_at": "2020-10-08T19:14:42.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python environment variable (Unix)", 
-                "number": 4, 
-                "completed_at": "2020-10-08T19:14:42.000Z", 
-                "started_at": "2020-10-08T19:14:42.000Z", 
-                "conclusion": "skipped"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python environment variable (Windows)", 
-                "number": 5, 
-                "completed_at": "2020-10-08T19:14:55.000Z", 
-                "started_at": "2020-10-08T19:14:42.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Extract branch name", 
-                "number": 6, 
-                "completed_at": "2020-10-08T19:14:56.000Z", 
-                "started_at": "2020-10-08T19:14:55.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Upgrade pip", 
-                "number": 7, 
-                "completed_at": "2020-10-08T19:15:05.000Z", 
-                "started_at": "2020-10-08T19:14:56.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Build on Unix", 
-                "number": 8, 
-                "completed_at": "2020-10-08T19:15:05.000Z", 
-                "started_at": "2020-10-08T19:15:05.000Z", 
-                "conclusion": "skipped"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Build on Windows", 
-                "number": 9, 
-                "completed_at": "2020-10-08T19:17:23.000Z", 
-                "started_at": "2020-10-08T19:15:05.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Post Git checkout with submodules", 
-                "number": 18, 
-                "completed_at": "2020-10-08T19:17:27.000Z", 
-                "started_at": "2020-10-08T19:17:23.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Complete job", 
-                "number": 19, 
-                "completed_at": "2020-10-08T19:17:27.000Z", 
-                "started_at": "2020-10-08T19:17:27.000Z", 
-                "conclusion": "success"
-            }
-        ], 
-        "head_sha": "0c27cab9c1b19f0383ced8305ed34c41e64b8ca3", 
-        "started_at": "2020-10-08T19:14:23Z", 
-        "id": 1227789193, 
-        "conclusion": "success"
-    }, 
-    {
-        "status": "completed", 
-        "check_run_url": "https://api.github.com/repos/rbsheth/hunter/check-runs/1227789177", 
-        "name": "tsl_robin_map vs-15-2017-win64-cxx17 windows-2016", 
-        "run_id": 296104019, 
-        "url": "https://api.github.com/repos/rbsheth/hunter/actions/jobs/1227789177", 
-        "html_url": "https://github.com/rbsheth/hunter/runs/1227789177", 
-        "completed_at": "2020-10-08T19:17:05Z", 
-        "run_url": "https://api.github.com/repos/rbsheth/hunter/actions/runs/296104019", 
-        "node_id": "MDg6Q2hlY2tSdW4xMjI3Nzg5MTc3", 
-        "steps": [
-            {
-                "status": "completed", 
-                "name": "Set up job", 
-                "number": 1, 
-                "completed_at": "2020-10-08T19:14:25.000Z", 
-                "started_at": "2020-10-08T19:14:23.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Git checkout with submodules", 
-                "number": 2, 
-                "completed_at": "2020-10-08T19:14:42.000Z", 
-                "started_at": "2020-10-08T19:14:25.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python", 
-                "number": 3, 
-                "completed_at": "2020-10-08T19:14:42.000Z", 
-                "started_at": "2020-10-08T19:14:42.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python environment variable (Unix)", 
-                "number": 4, 
-                "completed_at": "2020-10-08T19:14:42.000Z", 
-                "started_at": "2020-10-08T19:14:42.000Z", 
-                "conclusion": "skipped"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python environment variable (Windows)", 
-                "number": 5, 
-                "completed_at": "2020-10-08T19:14:53.000Z", 
-                "started_at": "2020-10-08T19:14:42.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Extract branch name", 
-                "number": 6, 
-                "completed_at": "2020-10-08T19:14:53.000Z", 
-                "started_at": "2020-10-08T19:14:53.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Upgrade pip", 
-                "number": 7, 
-                "completed_at": "2020-10-08T19:15:01.000Z", 
-                "started_at": "2020-10-08T19:14:53.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Build on Unix", 
-                "number": 8, 
-                "completed_at": "2020-10-08T19:15:01.000Z", 
-                "started_at": "2020-10-08T19:15:01.000Z", 
-                "conclusion": "skipped"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Build on Windows", 
-                "number": 9, 
-                "completed_at": "2020-10-08T19:17:01.000Z", 
-                "started_at": "2020-10-08T19:15:01.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Post Git checkout with submodules", 
-                "number": 18, 
-                "completed_at": "2020-10-08T19:17:05.000Z", 
-                "started_at": "2020-10-08T19:17:01.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Complete job", 
-                "number": 19, 
-                "completed_at": "2020-10-08T19:17:05.000Z", 
-                "started_at": "2020-10-08T19:17:05.000Z", 
-                "conclusion": "success"
-            }
-        ], 
-        "head_sha": "0c27cab9c1b19f0383ced8305ed34c41e64b8ca3", 
-        "started_at": "2020-10-08T19:14:23Z", 
-        "id": 1227789177, 
-        "conclusion": "success"
-    }, 
-    {
-        "status": "completed", 
-        "check_run_url": "https://api.github.com/repos/rbsheth/hunter/check-runs/1227789160", 
-        "name": "tsl_robin_map vs-16-2019-win64-cxx17 windows-2019", 
-        "run_id": 296104019, 
-        "url": "https://api.github.com/repos/rbsheth/hunter/actions/jobs/1227789160", 
-        "html_url": "https://github.com/rbsheth/hunter/runs/1227789160", 
-        "completed_at": "2020-10-08T19:16:25Z", 
-        "run_url": "https://api.github.com/repos/rbsheth/hunter/actions/runs/296104019", 
-        "node_id": "MDg6Q2hlY2tSdW4xMjI3Nzg5MTYw", 
-        "steps": [
-            {
-                "status": "completed", 
-                "name": "Set up job", 
-                "number": 1, 
-                "completed_at": "2020-10-08T19:14:25.000Z", 
-                "started_at": "2020-10-08T19:14:23.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Git checkout with submodules", 
-                "number": 2, 
-                "completed_at": "2020-10-08T19:14:40.000Z", 
-                "started_at": "2020-10-08T19:14:25.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python", 
-                "number": 3, 
-                "completed_at": "2020-10-08T19:14:41.000Z", 
-                "started_at": "2020-10-08T19:14:40.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python environment variable (Unix)", 
-                "number": 4, 
-                "completed_at": "2020-10-08T19:14:41.000Z", 
-                "started_at": "2020-10-08T19:14:41.000Z", 
-                "conclusion": "skipped"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Set up Python environment variable (Windows)", 
-                "number": 5, 
-                "completed_at": "2020-10-08T19:14:51.000Z", 
-                "started_at": "2020-10-08T19:14:41.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Extract branch name", 
-                "number": 6, 
-                "completed_at": "2020-10-08T19:14:52.000Z", 
-                "started_at": "2020-10-08T19:14:51.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Upgrade pip", 
-                "number": 7, 
-                "completed_at": "2020-10-08T19:15:00.000Z", 
-                "started_at": "2020-10-08T19:14:52.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Build on Unix", 
-                "number": 8, 
-                "completed_at": "2020-10-08T19:15:00.000Z", 
-                "started_at": "2020-10-08T19:15:00.000Z", 
-                "conclusion": "skipped"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Build on Windows", 
-                "number": 9, 
-                "completed_at": "2020-10-08T19:16:22.000Z", 
-                "started_at": "2020-10-08T19:15:00.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Post Git checkout with submodules", 
-                "number": 18, 
-                "completed_at": "2020-10-08T19:16:25.000Z", 
-                "started_at": "2020-10-08T19:16:22.000Z", 
-                "conclusion": "success"
-            }, 
-            {
-                "status": "completed", 
-                "name": "Complete job", 
-                "number": 19, 
-                "completed_at": "2020-10-08T19:16:25.000Z", 
-                "started_at": "2020-10-08T19:16:25.000Z", 
-                "conclusion": "success"
-            }
-        ], 
-        "head_sha": "0c27cab9c1b19f0383ced8305ed34c41e64b8ca3", 
-        "started_at": "2020-10-08T19:14:23Z", 
-        "id": 1227789160, 
+        "head_sha": "92add47fe97c4d71f5e7e6901d3e5e9c4d111cad", 
+        "started_at": "2020-10-09T15:26:32Z", 
+        "id": 1232091270, 
         "conclusion": "success"
     }
 ]
